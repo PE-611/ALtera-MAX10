@@ -1,0 +1,71 @@
+|Test
+clk => clk.IN2
+a <= blink1:comb_3.i
+b <= blink2:comb_4.j
+c <= <GND>
+d <= <GND>
+e <= <GND>
+f <= <GND>
+g <= <GND>
+
+
+|Test|blink1:comb_3
+clk1 => i~reg0.CLK
+clk1 => counter1[0].CLK
+clk1 => counter1[1].CLK
+clk1 => counter1[2].CLK
+clk1 => counter1[3].CLK
+clk1 => counter1[4].CLK
+clk1 => counter1[5].CLK
+clk1 => counter1[6].CLK
+clk1 => counter1[7].CLK
+clk1 => counter1[8].CLK
+clk1 => counter1[9].CLK
+clk1 => counter1[10].CLK
+clk1 => counter1[11].CLK
+clk1 => counter1[12].CLK
+clk1 => counter1[13].CLK
+clk1 => counter1[14].CLK
+clk1 => counter1[15].CLK
+clk1 => counter1[16].CLK
+clk1 => counter1[17].CLK
+clk1 => counter1[18].CLK
+clk1 => counter1[19].CLK
+clk1 => counter1[20].CLK
+clk1 => counter1[21].CLK
+clk1 => counter1[22].CLK
+clk1 => counter1[23].CLK
+clk1 => counter1[24].CLK
+i <= i~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Test|blink2:comb_4
+clk2 => j~reg0.CLK
+clk2 => counter2[0].CLK
+clk2 => counter2[1].CLK
+clk2 => counter2[2].CLK
+clk2 => counter2[3].CLK
+clk2 => counter2[4].CLK
+clk2 => counter2[5].CLK
+clk2 => counter2[6].CLK
+clk2 => counter2[7].CLK
+clk2 => counter2[8].CLK
+clk2 => counter2[9].CLK
+clk2 => counter2[10].CLK
+clk2 => counter2[11].CLK
+clk2 => counter2[12].CLK
+clk2 => counter2[13].CLK
+clk2 => counter2[14].CLK
+clk2 => counter2[15].CLK
+clk2 => counter2[16].CLK
+clk2 => counter2[17].CLK
+clk2 => counter2[18].CLK
+clk2 => counter2[19].CLK
+clk2 => counter2[20].CLK
+clk2 => counter2[21].CLK
+clk2 => counter2[22].CLK
+clk2 => counter2[23].CLK
+clk2 => counter2[24].CLK
+j <= j~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
